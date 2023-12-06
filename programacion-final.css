@@ -43,5 +43,66 @@ tr:nth-child(even) {
 }
 
 form {
-	margin: 5%;
+	text-align: center;
+	margin: 25%;
+	margin-bottom: 5%;
+	margin-top: 5%;
 }
+
+input {
+	width: 40em;
+}
+
+#check {
+	width: 3em;
+	padding-left: 0em;
+}
+
+button {
+	margin-top: 1em;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	font-size:large;
+	background-color: black;
+	color: white;
+	border-color: #f2f2f2;
+	border-style:double;
+}
+
+header {
+	margin-bottom: -2em;
+}
+
+button:hover {
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-color: #000000;
+	border-style:double;
+}
+
+nav ul {
+	list-style: none;
+	margin: 36px;
+	padding: 0;
+}
+  
+nav li {
+	font-weight: 420;
+	font-size: 1.4em;
+	display: inline-block;
+	margin-left: 51em;
+	text-transform: uppercase;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+  }
+  
+nav ul li a:hover {
+	text-decoration: underline;
+	text-underline-offset: 0.4em;
+}
+
